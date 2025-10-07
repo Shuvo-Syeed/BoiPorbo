@@ -13,7 +13,7 @@ const Book = ({singleBook}) => {
         <img style={{height:"166px"}  }
           src={image} 
           alt={bookName} 
-          className="rounded-t-lg" 
+      classNameName="rounded-t-lg" 
         />
       </figure>
 
@@ -21,10 +21,7 @@ const Book = ({singleBook}) => {
         <h2 className="card-title">{bookName}</h2>
         <span className="text-red-500">{author}</span>
        
-        {/* Scrollable Review */}
-        <div className="max-h-20 overflow-y-auto  p-2">
-          <p>{review}</p>
-        </div>
+     
 
         <p>{yearOfPublishing}</p>
         <div className='border-t-2 border-dashed'></div>

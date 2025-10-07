@@ -8,7 +8,7 @@ import Books from '../Books/Books';
 const Home = () => {
   return (
     <div className="
-               bg-gradient-to-r from-gray-100 via-gray-500 via-gray-300 to-white animate-gradient-bg">
+               bg-gradient-to-r from-gray-100 via-gray-500 to-white animate-gradient-bg">
       <Banner />
       <Books  />
  
